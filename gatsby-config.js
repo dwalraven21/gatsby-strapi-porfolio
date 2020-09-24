@@ -36,7 +36,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `http://localhost:1338`,
+        apiURL: `https://powerful-thicket-27042.herokuapp.com/`,
         queryLimit: 1000, // Default to 100
         contentTypes: [`jobs`, `projects`, `blogs`],
         singleTypes: [`about`],
