@@ -17,7 +17,15 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      // https://www.gatsbyjs.com/plugins/gatsby-plugin-sitemap/
+      options: {
+        // Exclude specific pages or groups of pages using glob parameters
+        // See: https://github.com/isaacs/minimatch
+        exclude: [`/admin/*`],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -27,8 +27,6 @@ const Component = () => {
       options: {
         apiURL: `http://localhost:1338`,
         queryLimit: 1000, // Default to 100
-        // contentTypes: [`jobs`, `projects`, `blogs`, ],
-        //singleTypes:[`about` ]
         contentTypes: [`jobs`, `projects`, `blogs`],
         singleTypes: [`about`],
       },
