@@ -6,12 +6,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: "WebDev Portfolio",
-    description: "This is WebDev Portfolio Site",
-    author: "@webdev",
-    twitterUsername: "@john_smilga",
+    title: "Dani's Portfolio",
+    description: "This is a demo of strapi and gatsby",
+    author: "@motherOfRavens",
+    twitterUsername: "@motherOfRavens",
     image: "/twitter-img.png",
-    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
+    siteUrl: "https://nervous-jennings-efb27f.netlify.app",
   },
   plugins: [
     `gatsby-transformer-sharp`,

@@ -22,13 +22,16 @@ const Hero = () => {
   } = useStaticQuery(query);
 
   return (
-  <header className="hero">
+    <header className="hero">
       <div className="section-center hero-center">
         <article className="hero-info">
           <div>
             <div className="underline"></div>
-            <h1>I'm Dani</h1>
-            <h4>Full-Stack Developer</h4>
+            <h1>Hi, I'm Dani</h1>
+            <h4>
+              This is not my real portfolio. Just a demo to learn about
+              strapi and gatsby.
+            </h4>
             <Link to="/contact" className="btn">
               contact me
             </Link>
@@ -36,7 +39,7 @@ const Hero = () => {
         </article>
         <Image fluid={fluid} className="hero-img" />
       </div>
-  </header>
+    </header>
   )
 }
 

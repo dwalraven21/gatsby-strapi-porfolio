@@ -1,5 +1,7 @@
 ## Setup Notes
 
+This is not my own work. Just a dummy project to learn about strapi and gatsby.
+
 1. All components ready to go (including imports)
 2. Use main.css - less imports
 3. Limit amount of components - better overview
