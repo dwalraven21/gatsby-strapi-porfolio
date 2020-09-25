@@ -29,8 +29,7 @@ const Hero = () => {
             <div className="underline"></div>
             <h1>Hi, I'm Dani</h1>
             <h4>
-              This is not my real portfolio. Just a demo to learn about
-              strapi and gatsby.
+              This is not my real portfolio.
             </h4>
             <Link to="/contact" className="btn">
               contact me
